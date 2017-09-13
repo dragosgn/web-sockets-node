@@ -7,7 +7,10 @@ app.get('/', function(req, res){
 })
 
 io.on('connection', function(socket){
-  sonsole.log('a user is connected');
+  console.log('a user is connected');
+  socket.on('disconnect', function(){
+    console.log('user disconnected');
+  });
 })
 
 http.listen(3000, function(){
