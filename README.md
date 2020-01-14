@@ -1,3 +1,3 @@
 # web-sockets-node
 
-A simple websockets implementations using socket.io and ndoe js.
+A simple websockets implementations using socket.io and node.js, for demo purposes. 
